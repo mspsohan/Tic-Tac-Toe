@@ -74,6 +74,7 @@ const Board = ({ xIsNext, squares, onPlay }) => {
 	);
 };
 
+// Main Function For Show the UI
 const App = () => {
 	const [history, setHistory] = useState([Array(9).fill(null)]);
 	const [currentMove, setCurrentMove] = useState(0);
