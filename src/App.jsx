@@ -96,7 +96,7 @@ const App = () => {
 		} else {
 			description = 'Go to game start';
 		}
-
+		// the return not for function its just map retuen
 		return (
 			<li key={move}>
 				<button onClick={() => jumpTo(move)}>{description}</button>
